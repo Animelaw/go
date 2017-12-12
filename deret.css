@@ -51,7 +51,6 @@ http://flickity.metafizzy.co
   height: 44px;
   border: none;
   border-radius:10%;
-  background: #FF849E;
   background: #F46D89;
   cursor: pointer;
   /* vertically center */
@@ -59,7 +58,7 @@ http://flickity.metafizzy.co
           transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: white; }
+.flickity-prev-next-button:hover { background: #F46D89; }
 
 .flickity-prev-next-button:focus {
   outline: none;
@@ -118,7 +117,7 @@ http://flickity.metafizzy.co
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin: 0 8px;
+  margin: 0 3px;
   background: #FF849E;
   border-radius: 50%;
   opacity: 0.25;
